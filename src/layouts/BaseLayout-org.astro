@@ -1,0 +1,18 @@
+---
+// Import the global stylesheet
+import '../styles/global.css';
+
+// Set up a prop for the page title
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/favicon1.ico" type="image/x-icon">
+  <title>{title}</title>
+</head>
+<body class="bg-light text-gray-800">
+  <slot /> </body>
+</html>
