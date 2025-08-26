@@ -1,0 +1,3 @@
+[identity]
+  # Tell Netlify where to send the user AFTER they click the invitation link
+  invite_token_template = "https://straits-blog.netlify.app/admin/#invite_token={{.Token}}"
